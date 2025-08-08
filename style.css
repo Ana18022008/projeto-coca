@@ -1,17 +1,182 @@
-body{
-    width: 90%;
-    margin: 0 auto;
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
 }
 
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
 
+header , footer, #hero {
+    background-color:#1F61FE;
+}
 
+#container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    align-items: center;
+    padding-top: 0.75rem;
+}
 
+#container-header #logo img{
+    max-width: 100%;
+    height: 3.5rem;
+}
 
+#menu-desktop , #login , #desktop-companies{
+    display: none;
+}
 
+#hero-container{
+    width: 90%;
+    margin: 0 auto;
+    color: white
+}
 
+#hero-container #hero-container-text{
+    width: 20.9375rem;
+    padding-top: 2rem;
+}
 
+#hero-container #hero-container-text h2{
+    font-weight: 600;
+    font-size: 2.25rem;
+    letter-spacing: 0.0625rem;
+    line-height: 120%;
+}
 
-.container-header{
-    background-image: url("/images/linhas.svg");
+#hero-container #hero-container-text p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    padding-top: 1rem;
+}
 
+#hero-container #trial-demo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+#hero-container #trial-demo button{
+    border-radius: 6.25rem;
+    width: 183px;
+    height: 54px;
+    border: none;
+    background-color:#A7F46A ;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+#hero-container #trial-demo #demo{
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.87rem;
+    align-items: center;
+}
+
+#hero-container #trial-demo #demo img{
+    max-width: 100%;
+    height: 1.5rem;
+}
+
+#hero-container #trial-demo #demo p{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+#hero-container #tables{
+    margin-top: 3rem; 
+}
+
+#hero-container #tables img{
+    max-width: 100%;
+    height: 14.6875rem;
+}
+
+#hero-waves{
+    margin-top: -0.9rem;  
+}
+
+ #hero-waves img{
+   max-width: 100%;
+   height: 70px; 
+   display: block;
+}
+
+#clients-container{
+    width: 90%;
+    margin: 0 auto;
+    color: black
+}
+
+#clients-container #clients-container-text{
+    margin-top: 3.5rem;  
+}
+
+#clients-container #clients-container-text h2{
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    width: 20.8125rem;
+}
+
+#clients-container #mobile-companies{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    width: 16rem;
+    height: 6.302rem;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.companies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#clients-container #mobile-companies .container-logo{
+    display: flex;
+    width: 7.5rem;
+    height: 2.651rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#clients-container #mobile-companies .logo{
+    max-width: 100%; 
+}
+
+#container-planning{
+    width: 90%;
+    margin: 0 auto;
+    color: black;
+    margin-top: 7.01rem;
+}
+
+#container-planning .planning-text h2{
+    font-weight: 600;
+    font-size: 2rem; 
+}
+
+#container-planning .planning-text h5{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.625rem;
+}
+
+#container-planning .planning-text p{
+    font-weight: 500;
+    color: #7E8492;
+    font-size: 0.875rem;
 }

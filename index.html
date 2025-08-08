@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coca</title>
     <link rel = "Stylesheet" href = "style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     
 <header id = "header"> <!--renomear as classes e ids somente para um idioma-->
-    <div class = "container-header"> <!--Adicionar destinos para os links e buttons-->
+    <div id = "container-header"> <!--Adicionar destinos para os links e buttons-->
         <!--colocar ponto final nos alt-->
-         
+
         <div id = "logo">  <!--Perguntar para o professor onde vai o H1-->
     <img id = "logo-image" src = "/images/Logo.svg" alt = "website logo" >
         </div>
@@ -19,10 +24,10 @@
         <nav class = "menus" aria-label = "Main menu"> 
 
             <div id="menu-mobile" area-label = "Menu mobile">
-                <button>☰</button> <!--Substituir o adesivo por um código-->
+                <img src = "/images/menu-hamburguer.svg" alt = "Menu Hambúrguer para dispositivos mobile"> <!--Substituir o adesivo por um código-->
             </div>
 
-         <ul class = "menu-desktop" area-label = "Menu desktop"> <!--precisa de area label nos divs?-->
+         <ul id = "menu-desktop" area-label = "Menu desktop"> <!--precisa de area label nos divs?-->
             <li><a href = "#home"> Home </a></li>
             <li><a href = "#solutions"> Solutions </a></li>
             <li><a href = "#rankings"> Rankings </a></li>
@@ -30,7 +35,7 @@
         </ul>
     </nav>
 
-    <div id="login">
+     <div id="login">
     <p id = sign-in><a href = #login>Sign In</a></p>
     <button>Sign up Free</button> <!--Verificar se o button é o indicado-->
     </div>
@@ -39,40 +44,62 @@
 </header>
 
 <main id = "main">
+
+    <div id = "container-main"> 
     
     <section id = "hero">
-        <div class="hero-container">
+        <div id="hero-container">
+            <div id = "hero-container-text">
             <h2>Time tracking and efficient work habits are key to success</h2>
             <p>How to overcome common challenges and pitfalls when trying to adopt time tracking and efficient work habits, and build sustainable habits that lead to lasting success </p>
-            
+            </div>
             <div id = "trial-demo"> <!--Verificar se é um bom nome-->
                     <button>Get Trial Project🔥 </button>
                     <div id = "demo">
                         <img id = "play-icon" src = "/images/Icon_play.svg" alt = "Play icon"> <!--Verificar todas as nomeações-->
-                        <button>Watch Demo</button>
+                        <p>Watch Demo</p>
                     </div>
             </div>
 <div id="tables"> 
     <img src = "/images/tabelas.svg" alt = "graphs and tables from our website in operation"> <!--Verificar as nomeações--> 
 </div>
-
-<div id = "hero-waves">
-    <img src = "/images/ondas.svg" alt = "waves for decoration">
-</div>
         </div>
+
+        <div id = "hero-waves">
+    <img src = "/images/ondas.svg" alt = "waves for decoration">
+    </div>
+
     </section>
 
     <section id = "clients">
         <div id="clients-container">
-        <h2>Our services/products are trusted by industry leaders</h2>
+            <div id = "clients-container-text"> 
+        <h2>Our services/ <br>
+            products are trusted by industry leaders</h2>
+</div>
+
 
         <nav class = "companies">
 
             <div id = "mobile-companies">
+
+                <div class="container-logo">
                 <img class = "logo" src = "/images/Google Logo.svg" alt = "Google logo">
+                </div>
+
+                <div class="container-logo">
                 <img class = "logo" src = "/images/Microsoft Logo.svg" alt = "Microsoft logo">
+                </div>
+
+                <div class="container-logo">
                 <img class = "logo" src = "/images/Airbnb svg.svg" alt = "Airbnb logo">
+                </div>
+               
+
+                <div class="container-logo">
                 <img class = "logo" src = "/images/Groupon svg.svg" alt = "Groupon logo">
+                 </div>
+            
             </div>
 
             <div id = "desktop-companies">
@@ -89,6 +116,7 @@
     </section>
 
     <section id = "planning">
+        <div id = "container-planning">
         <div class = "planning-text">
             <h2>Make sure to organize and plan how you will allocate</h2>
             <h5>Time management is essential for ensuring that you have enough time to complete your tasks.</h5> <!--Verificar se o título está do tamanho certo-->
@@ -104,9 +132,10 @@
             <h5>Time management is essential for ensuring that you have enough time to complete your tasks.</h5>
             <p>Time is a crucial element in our lives, helping us to structure and organize our daily activities into good habits. By understanding the value of time, we can gain valuable experience and develop ourselves.</p>
         </div>
-
+</div>
     </section>
 
+    
     <section id = "comentario">
         <div id = "container-comentario"> <!--Adicionar bordas em cima e em baixo como no figma-->
             <img id = "stars" src = "/images/Estrelas.svg" alt = "Nota em estrelas">
