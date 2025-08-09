@@ -10,6 +10,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sonsie+One&display=swap" rel="stylesheet">
+
 </head>
 <body>
     
@@ -117,41 +121,69 @@
 
     <section id = "planning">
         <div id = "container-planning">
+<div class = planning-text-graphics>
         <div class = "planning-text">
             <h2>Make sure to organize and plan how you will allocate</h2>
-            <h5>Time management is essential for ensuring that you have enough time to complete your tasks.</h5> <!--Verificar se o título está do tamanho certo-->
+            <h5>Time management is essential for<br>
+                 ensuring that you have enough time to complete your tasks.</h5> <!--Verificar se o título está do tamanho certo-->
             <p>Time is a crucial element in our lives, helping us to structure and organize our daily activities into good habits. By understanding the value of time, we can gain valuable experience and develop ourselves.</p>
         </div>
 
-        <div class = "graphics"> <!--Verificar o nome da div (tlvz deixar todos os gráficos com o mesmo nome)-->
-            <img class = "graphics" src = "/images/graficos.svg" alt = "Graphs with project earnings and costs per day and division of total time between areas such as Branding and User Interface.">
+        <div id = "graphics"> <!--Verificar o nome da div (tlvz deixar todos os gráficos com o mesmo nome)-->
+            <img id = "graphics-img" src = "/images/graficos.svg" alt = "Graphs with project earnings and costs per day and division of total time between areas such as Branding and User Interface.">
+        </div>
+</div>
+
+<div class="planning-text-graphics">
+
+        <div id="second-graphics">
+            <img id = "second-graphics-img" src = "/images/graphics.svg" alt = "Bar chart showing work hours from March 17 to 21, ranging from 2h to 8h. Next to it, a pie chart with 100 total hours: 49h50m clocked, 50h10m billable, total earnings $35,500.">
         </div>
 
         <div class="planning-text">
             <h2>Utilize your busy time wisely with these excellent tips</h2>
-            <h5>Time management is essential for ensuring that you have enough time to complete your tasks.</h5>
+            <h5>Time management is essential for<br>
+                 ensuring that you have enough time to complete your tasks.</h5>
             <p>Time is a crucial element in our lives, helping us to structure and organize our daily activities into good habits. By understanding the value of time, we can gain valuable experience and develop ourselves.</p>
         </div>
 </div>
+
     </section>
 
     
-    <section id = "comentario">
-        <div id = "container-comentario"> <!--Adicionar bordas em cima e em baixo como no figma-->
+    <section id = "comments">
+        <div id = "container-comments"> <!--Adicionar bordas em cima e em baixo como no figma-->
             <img id = "stars" src = "/images/Estrelas.svg" alt = "Nota em estrelas">
-            <p id = "comentario">“ I really enjoy my work and it makes me more productive, happier and more successful. The cowering place builds confidence and inspires greater performance and greater success for both employees and employers.”</p>
-            <img id = "comentadora" src = "/images/Cliente.svg" alt = "Comentadora">
+            <p id = "comment">“ I really enjoy my work and it makes me more productive, happier and more successful. The cowering place builds confidence and inspires greater performance and greater success for both employees and employers.”</p>
+          
+            <div id = "commentator">
+
+            <div id = "commentator-img">
+            <img src = "/images/Client.svg" alt = "Comentadora"> <!--Trocar o alt depois-->
+            </div>
+
+            <div id = "name-job-commentator">
+            <p id = "name-commentator">Jenny Amelia kitty</p>
+            <p id = "job-commentator">Project Manager at Microsoft</p>
+            </div>
+
+        </div>
         </div>
     </section>
 
-    <section id = "dicas"> <!--Verificar se o nome está correto e aceito-->
+    <section id = "tips"> <!--Verificar se o nome está correto e aceito-->
 <div id = "container-dicas">
+
+    <div id = "dicas-text">
     <h2>Maximize Your Time with Tips from Our Time Management Blog</h2>
     <p>Transform Your Time Management Skills: Explore Our Comprehensive Blog for Insights, Inspiration, and Strategies</p>
+</div>
 
     <div id = "cards">
         <div class = "card">
+            <div class = "card-img">
             <img src = "/images/imagem1.svg" alt = "Equipe de UX Designer em um momento de descontração"> <!--Professor verificou-->
+            </div>
             <div class="card-body">
             <h4>List of UX Designer Portfolio / Case Studies where you can make money</h4>
             <p>Here are some portfolios / Case Studies from UX Designers that you can use as a reference for creating a portfolio. Two interesting things from their portfolio are:</p>
@@ -159,16 +191,20 @@
         </div>
 
         <div class="card">
+            <div class = "card-img">
             <img src = "/images/imagem2.svg" alt = "Equipe realizando uma reunião"> <!--Verificar-->
-          <div class="card-body">
+        </div>
+            <div class="card-body">
             <h4>Elements that may be missed when designing the UI</h4>
             <p>This is an article that talks about the little elements that are often overlooked when designing UI. Design is a method of designing aesthetic actions that are carried out.</p>
         </div>
         </div>
 
         <div class="card">
+            <div class = "card-img">
             <img src = "/images/imagem3.svg" alt = "Equipe designer assistindo uma apresentação online em slides">
-          <div class="card-body">
+          </div>
+            <div class="card-body">
             <h4>Skyrocketing in The Designing Career, Why Not?</h4>
             <p>Ever thought of jumping into the world of design as a career? If not, you may want to look at what the word ‘design’ actually means. </p>
         </div>

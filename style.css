@@ -4,11 +4,21 @@
   font-optical-sizing: auto;
 }
 
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
 *{
     margin: 0;
     padding:0;
     box-sizing: border-box;
     font-family: Inter;
+}
+
+img{
+    max-width: 100%;
 }
 
 header , footer, #hero {
@@ -26,7 +36,6 @@ header , footer, #hero {
 }
 
 #container-header #logo img{
-    max-width: 100%;
     height: 3.5rem;
 }
 
@@ -68,8 +77,8 @@ header , footer, #hero {
 
 #hero-container #trial-demo button{
     border-radius: 6.25rem;
-    width: 183px;
-    height: 54px;
+    width: 11.4375rem;
+    height: 3.375rem;
     border: none;
     background-color:#A7F46A ;
     font-weight: 500;
@@ -84,7 +93,6 @@ header , footer, #hero {
 }
 
 #hero-container #trial-demo #demo img{
-    max-width: 100%;
     height: 1.5rem;
 }
 
@@ -98,7 +106,6 @@ header , footer, #hero {
 }
 
 #hero-container #tables img{
-    max-width: 100%;
     height: 14.6875rem;
 }
 
@@ -107,7 +114,6 @@ header , footer, #hero {
 }
 
  #hero-waves img{
-   max-width: 100%;
    height: 70px; 
    display: block;
 }
@@ -164,19 +170,172 @@ header , footer, #hero {
     margin-top: 7.01rem;
 }
 
+#container-planning .planning-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20.996rem;
+    height: 20.062rem;
+}
+
 #container-planning .planning-text h2{
     font-weight: 600;
     font-size: 2rem; 
+    font-style: Semi Bold;
 }
 
 #container-planning .planning-text h5{
     font-weight: 700;
     font-size: 1rem;
     line-height: 1.625rem;
+    font-style: Bold;
 }
 
 #container-planning .planning-text p{
     font-weight: 500;
     color: #7E8492;
     font-size: 0.875rem;
+    font-style: medium;
+    line-height: 150%;
+}
+
+
+#container-planning #graphics , #second-graphics{
+    display: flex;
+    width: 335px;
+    height: 282px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+ #graphics{
+    background-color:#FAFBFA;
+}
+
+#graphics img {
+    height: 16.36rem ;
+}
+
+ #second-graphics{
+    background-color: #F5F5F5;
+    margin-top: 7rem;
+    margin-bottom: 2.5rem;
+}
+
+ #second-graphics img{
+    height: 16.78rem;
+    
+}
+
+#comments{
+width: 90%;
+margin: 0 auto;
+}
+
+#container-comments{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 20.9375rem;
+    height: 21.125rem;
+    border-top: 0.0625rem solid #EDEDED ;
+    border-bottom: 0.0625rem solid #EDEDED ;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+ #stars{
+   display: flex;
+   height: 1.5rem; 
+   align-self: flex-start;
+}
+
+ #comment{
+    font-weight: 600;
+    font-size: 1.139rem;
+    line-height: 120%;
+    color: #1E2238;
+    font-style: semi bold;
+}
+
+#commentator{
+    display: flex;
+    flex-direction: row;
+    width: 17.875rem;
+    height: 3.5rem;
+     gap: 1rem;
+}
+
+#commentator-img img{
+    height: 3.5rem;
+    border-radius: 100%;
+}
+
+ #name-job-commentator{
+    width: 214px;
+}
+
+#name-commentator{
+    font-style: medium;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    font-weight: 500;
+    
+}
+
+ #job-commentator{
+    font-family: sonsie one;
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    font-style: regular;
+    color: #80818C;
+}
+
+#tips{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#dicas-text{
+    margin-bottom: 2.5rem;
+}
+
+#container-dicas #dicas-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;  /*Verificar os que precisam de gap*/
+}
+
+#dicas-text h2{
+    font-weight: 600;
+    font-style: semi bold;
+    font-size: 2rem;
+    line-height: 120%;
+    letter-spacing: -1%;
+}
+
+#dicas-text p{
+    font-weight: 500;
+    font-style: medium;
+    font-size: 1rem;
+    line-height: 1.625rem ;
+    color: #7E8492;
+}
+
+#cards{
+    display: flex;
+    flex-direction: column;
+}
+
+#card{
+    width: 20.9375rem;
+    height: 34,75rem;
+}
+
+#card-img{
+    height: 22,1875rem; /*Terminar a partir dos cards*/
 }
