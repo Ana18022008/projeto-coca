@@ -329,13 +329,47 @@ margin: 0 auto;
 #cards{
     display: flex;
     flex-direction: column;
+     width: 20.9375rem;
+     gap:2rem;
 }
 
-#card{
-    width: 20.9375rem;
-    height: 34,75rem;
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 34.75rem;
+    gap:1rem;
 }
 
-#card-img{
-    height: 22,1875rem; /*Terminar a partir dos cards*/
+#cards > .card:nth-child(2){
+    height: 31.5rem ;
+}
+
+ .card img{
+ height: 22.1875rem;
+ border-radius: 1rem;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+
+.card-body h4{
+    font-weight: 600;
+    font-style: semi bold;
+    font-size:1.5rem ;
+    line-height: 130%;
+    letter-spacing: 0.016rem;
+    vertical-align: middle;
+    color:#1D1E25;
+}
+
+.card-body p{
+    font-weight: 500;
+    font-style: medium;
+    font-size: 0.875rem;
+    line-height: 150%;
+    vertical-align: middle;
+    color: #7E8492;
 }
