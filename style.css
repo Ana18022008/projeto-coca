@@ -21,7 +21,7 @@ img{
     max-width: 100%;
 }
 
-header , footer, #hero {
+header , #container-free-trial, #hero {
     background-color:#1F61FE;
 }
 
@@ -114,7 +114,7 @@ header , footer, #hero {
 }
 
  #hero-waves img{
-   height: 70px; 
+   height: 4.375rem; 
    display: block;
 }
 
@@ -202,9 +202,9 @@ header , footer, #hero {
 
 #container-planning #graphics , #second-graphics{
     display: flex;
-    width: 335px;
-    height: 282px;
-    border-radius: 12px;
+    width: 20.9375rem;
+    height: 17.625rem;
+    border-radius:0.75rem;
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
@@ -274,7 +274,7 @@ margin: 0 auto;
 }
 
  #name-job-commentator{
-    width: 214px;
+    width: 13.375rem;
 }
 
 #name-commentator{
@@ -299,18 +299,18 @@ margin: 0 auto;
     margin: 0 auto;
 }
 
-#dicas-text{
+#tips-text{
     margin-bottom: 2.5rem;
 }
 
-#container-dicas #dicas-text{
+#container-tips #tips-text{
     display: flex;
     flex-direction: column;
     text-align: center;
     gap: 1rem;  /*Verificar os que precisam de gap*/
 }
 
-#dicas-text h2{
+#tips-text h2{
     font-weight: 600;
     font-style: semi bold;
     font-size: 2rem;
@@ -318,7 +318,7 @@ margin: 0 auto;
     letter-spacing: -1%;
 }
 
-#dicas-text p{
+#tips-text p{
     font-weight: 500;
     font-style: medium;
     font-size: 1rem;
@@ -372,4 +372,297 @@ margin: 0 auto;
     line-height: 150%;
     vertical-align: middle;
     color: #7E8492;
+}
+
+#free-trial{
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+#container-free-trial{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 31.875rem ;
+    width: 20.9375rem;
+    border-radius: 1.25rem;
+    background-image: url("/images/fundo-trial.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 17.286875rem;
+    background-position: calc(100% - 1rem) calc(100% - 1.21rem);
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-top:3.94rem;
+}
+
+#free-trial-text-information{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+#free-trial-text{
+    display: flex;
+    flex-direction: column;
+    height: 14.625rem;
+    gap: 1.5rem;
+}
+
+#free-trial-text h2{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.04rem;
+    font-style: Semi bold;
+    color:#FFFFFF;
+}
+
+#free-trial-text p{
+    font-weight: 500;
+    font-size: 1.135rem;
+    line-height: 2rem;
+    text-align: center; /*Verificar pq a letra ficou mais grossa doq deveria*/
+    font-style: medium;
+    color: #EDEDED;
+}
+
+#free-trial-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0.5rem;
+    text-align: center;  /*colocar as bordas*/
+}
+
+#free-trial-information p{
+    display: flex;
+    align-items: center;
+    width: 5.645625rem;
+    font-style: medium;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: center;
+    color: #EDEDED;
+}
+
+#requestion-free-trial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    height: 8.125rem;
+    
+}
+
+#requestion-free-trial #request{
+    width: 8.9375rem;
+    height: 3.375rem;
+    border-radius: 6.25rem;
+    padding-top:0.875rem;
+    padding-right: 1.25rem;
+    padding-bottom: 0.875rem;
+    padding-left: 1.25rem;
+    gap:0.625rem;
+    background-color: #A7F46A;
+}
+
+#requestion-free-trial #request p{
+    font-weight: 700;
+    font-style: bold;
+    font-size: 1rem;
+    line-height:1.625rem;
+    text-align: center;
+    color:#1D1E25;
+}
+
+
+#email-free-trial{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 18.9375rem;
+    height: 3.25rem;
+    gap:0.5rem;
+    border-radius: 6.25rem;
+    padding:1rem;
+    border: 0.0625rem solid #D6D6D6;
+    background-color: #FFFFFF;
+}
+
+#email-free-trial img{
+   height: 0.729375rem;
+    display: flex;
+    align-self: center;
+}
+
+#email-free-trial P{
+display: flex;
+font-weight: 500;
+font-size: 0.875rem;
+line-height: 1.25rem;
+font-style: medium;
+color: #878787;
+align-self: center;
+}
+
+footer{
+ background-color: #1D1E25;
+ margin-top: 3.5rem;
+}
+
+#container-footer{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    color:#FFFFFF;
+     padding-top: 3.5rem;
+}
+
+#footer-brand{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 20.9375rem;
+    height: 13.875rem;
+}
+
+#footer-brand h3{
+    width: 20.625rem;
+    font-weight: 600;
+    font-style: semi bold;
+    font-size: 2rem;
+    line-height: 120%;
+    letter-spacing: -1%;
+}
+
+#footer-contact-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:1.5rem;
+}
+
+#location{
+    display: flex;
+    flex-direction: row;
+    width: 20rem;
+    height: 3.25rem;
+    gap: 0.875rem;
+    align-items: center;
+}
+
+#location img{
+    height: 2.875rem;
+}
+
+#location p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    font-style: regular;
+}
+
+#email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   width: 10.6875rem;
+   height: 2.875rem;
+   gap:0.875rem; 
+}
+
+#email img{
+    height: 2.875rem;
+}
+
+#email p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    font-style: regular;
+}
+
+#footer-middle{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 18rem;
+}
+
+#logo-footer{
+    margin-top:4.88rem;
+    margin-bottom: 2.5rem;
+}
+
+#informative-icons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    align-items: flex-start;
+    width: 15.25rem;
+    height: 4.25rem;
+    row-gap: 1rem;
+    column-gap: 2.56rem;
+    margin-bottom: 1rem;
+
+}
+
+
+#informative-icons p{
+    font-weight: 500;
+    font-style: medium;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    justify-content: space-between;
+}
+
+#social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 9.5rem;
+    height: 1.25rem;
+}
+
+#social img{
+    height: 1.25rem;
+}
+
+#footer-end{
+    width: 20rem;
+    height: 9.75rem;
+    display: flex;
+    flex-direction: column;
+    margin-top:2rem;
+    border-top: 0.0625rem solid #7E8492;
+}
+
+#terms{
+    display: flex;
+    flex-direction: row;
+    width: 18.5rem;
+    gap:2.5rem;
+    padding-top: 1.5rem;
+}
+
+#terms p{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 160%;
+    font-style: medium;
+}
+
+#credits{
+    margin-top: 1.5rem;
+}
+
+#credits p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    font-style: regular;
 }
