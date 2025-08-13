@@ -45,10 +45,39 @@ header , #container-free-trial, #hero {
     width: 90%;
     align-items: center;
     padding-top: 0.75rem;
+    
 }
 
-#container-header #logo img{
+#logo{
+    width: 7.5rem;
     height: 3.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ #logo-img{
+    width: 2.25rem;
+    height: 2.2275rem;
+    background-size: contain;
+}
+
+#logo-img img{
+    
+    display:block;
+    height: auto;
+}
+
+#logo-name{
+    background-size: contain;
+    width: 4.606875rem;
+    height: 1.11375rem;
+}
+
+#logo-name img{
+    display: block;
+    height: auto;
 }
 
 #menu-desktop , #login , #desktop-companies{
@@ -134,7 +163,7 @@ header , #container-free-trial, #hero {
 #clients-container{
     width: 90%;
     margin: 0 auto;
-    color: black
+     color:#1D1E25;
 }
 
 #clients-container #clients-container-text{
@@ -146,6 +175,9 @@ header , #container-free-trial, #hero {
     font-size: 2rem;
     text-align: center;
     width: 20.8125rem;
+    letter-spacing: 0.00625rem;
+    line-height: 120%;
+    height: 7.125rem; 
 }
 
 #clients-container #mobile-companies{
@@ -174,6 +206,7 @@ header , #container-free-trial, #hero {
 
 #clients-container #mobile-companies .logo{
     max-width: 100%; 
+    
 }
 
 #container-planning{
@@ -696,14 +729,14 @@ footer{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        width: 140px;
-        height: 66px;
+        width: 7.125rem;
+        height: 4.125rem;
         margin-top: 1.5rem;
     }
 
     #logo-img{
-        width: 42px;
-        height: 42px;
+        width: 2.625rem;
+        height: 2.625rem;
         
     }
 
@@ -713,12 +746,12 @@ footer{
     }
 
     #logo-name{
-        width: 86px;
-        height: 21px;
+        width: 5.375rem;
+        height: 1.3125rem;
     }
 
     #logo-name img{
-        height: 21px !important;
+        height: 1.3125rem !important;
         max-width: 100%;
         
     }
@@ -730,8 +763,8 @@ footer{
     #menu-desktop{
         display: flex;
         flex-direction: row;
-        width: 337px;
-        height: 26px;
+        width: 21.0625rem;
+        height: 1.625rem;
         justify-content: space-between;
         align-items: center;
         color: #FFFFFF;
@@ -748,7 +781,7 @@ footer{
     #menu-desktop p {
             font-weight: 500;
             font-size: 1rem;
-            line-height: 26px; /*ver com o professor pq as fontes ficam mais grossas*/
+            line-height: 1.625rem; /*ver com o professor pq as fontes ficam mais grossas*/
     }
 
     #login{
@@ -756,8 +789,8 @@ footer{
         flex-direction: row;
         align-items: center;
         gap: 1rem;
-        width: 225px;
-        height: 54px;
+        width: 14.0625rem;
+        height: 3.375rem;
         color: #FFFFFF;
     }
 
@@ -839,18 +872,76 @@ footer{
     }
        
     #hero-waves{
-        margin-top: -11.7rem;
+        margin-top: -11.6rem;
         width: 1440px;
         height: 269px;
     }
 
     #hero-waves img{
         height: 269px;
+        border-radius: 2px;
     }
 
+    /*section clients*/
+
+    #clients{
+       width: 1440;
+       height: 486px;
+       margin-top: -4rem;
+    }
+
+    #clients-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between!important;
+        width: 956px;
+        height: 374px;
+        row-gap:56px;
+        
+    }
+
+    #clients-container-text{
+        width:912px;
+        height: 134px;
+    }
+
+    #clients-container-text h2{
+        width:912px!important;
+        height: 134px!important;
+        font-weight: 600;
+        font-size: 56px!important;
+        line-height: 120%;
+        color:#1D1E25;
+        letter-spacing: -1%;
+    }
+
+    #mobile-companies{
+        display: none !important;
+    }
+
+    #desktop-companies{
+        width: 956px;
+        height:184px;
+        display: flex;
+        flex-wrap: wrap;
+        gap:2rem;   
+        align-items: center;
+        justify-content: center;
+    }
+
+     #desktop-companies .container-logo-desktop{
+    display: flex;
+    width: 215px;
+    height: 76px;
+    align-items: center;
+    justify-content: center; /* Arrumar */
+        
+     }
+    
+         
+    
+
 }
-
-
 
 
 
