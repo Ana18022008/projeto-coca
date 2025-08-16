@@ -826,7 +826,7 @@ footer{
 }
 
 
-@media (min-width: 1440px){
+@media (min-width: 1180px){
 
 
     #container-header{
@@ -846,7 +846,7 @@ footer{
         align-items: center;
         width: 8.75rem;
         height: 4.125rem;
-        margin-top: 1.5rem;
+        
     }
 
 
@@ -1088,7 +1088,7 @@ footer{
      #planning{
         display: flex;
         flex-direction: column;
-        height: 1424px;
+        height: 89rem;
         margin-top: 7rem!important;
      }
 
@@ -1096,7 +1096,7 @@ footer{
         display: flex;
         flex-direction: column;
         gap:7rem;
-        margin:0px;
+        margin:0rem;
         
      }
    
@@ -1105,25 +1105,25 @@ footer{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        width: 1215px;
-        height: 488px;
-        gap:50px;
+        width: 75.9375rem;
+        height: 30.5rem;
+        gap:3.125rem;
         margin-left: 7.03rem;
         margin-right: 6.96rem;
     }
 
     .planning-text{
-        width: 586px!important;
+        width: 36.625rem!important;
         height: 363px!important;
-        gap:24px;
+        gap:1.5rem;
     }
 
     .graphics{
     display: flex;
-    margin-top:0px!important;
+    margin-top:0rem!important;
     width: 579px!important;
-    height: 488px!important;
-    border-radius:24px ;
+    height: 30.5rem!important;
+    border-radius:1.5rem ;
     
     }
 
@@ -1138,7 +1138,7 @@ footer{
         height: 28.31rem!important;
     }
     #planning-text-graphics .planning-text h2{
-        width: 586px;
+        width: 36.625rem;
         height: 201px;
         font-weight: 600;
         font-size: 56px!important;
@@ -1148,10 +1148,10 @@ footer{
     }
 
     .planning-text h5{
-        width: 552px;
-        height: 44px;
+        width: 34.5rem;
+        height: 2.75rem;
         font-weight: 600;
-        font-size: 18px!important;
+        font-size: 1.125rem!important;
         line-height: 120%!important;
         color:#1D1E25;
     }
@@ -1180,8 +1180,8 @@ footer{
         justify-content: space-between;
         align-items: center;
         width: 1200px;
-        height: 488px;
-        gap:50px;
+        height: 30.5rem;
+        gap:3.125rem;
     }
 
     #second-planning-text-graphics h2{
@@ -1199,8 +1199,8 @@ footer{
         align-items: center;
         justify-content: center;
         width: 579px;
-        height: 488rem;
-        border-radius: 24px;
+        height: 30.5rem;
+        border-radius:1.5rem;
         background-color: #F5F5F5;
     }
 
@@ -1238,7 +1238,7 @@ footer{
     height: 2rem;
     font-weight: 600!important;
     font-family: 'Sora';
-    font-size: 24px;
+    font-size:1.5rem;
     line-height: 32px;
     color:#1E2238;
 }
@@ -1247,7 +1247,7 @@ footer{
     width: 300px;
     height: 20px;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 20px;
     color:#80818C;
 }
@@ -1277,13 +1277,13 @@ footer{
     margin-bottom: 3.5rem;
     width: 935px;
     height: 222px;
-    gap:24px!important;
+    gap:1.5rem!important;
     text-align: center;
 }
 
 #tips-text h2{
    font-weight: 600;
-   font-size: 56px;
+   font-size: 3.5rem;
    line-height: 120%;
    letter-spacing: -1%;
    color:#1D1E25; 
@@ -1293,7 +1293,7 @@ footer{
     
     width: 608px;
     font-weight: 500;
-    font-size: 18px;
+    font-size:1.125rem;
     line-height: 2rem;
     color:#7E8492;
     
@@ -1338,11 +1338,11 @@ footer{
 
 .card-img{
     width: 379px;
-    height: 414px;
+    height: 25.875rem;
 }
 
 .card-img img{
-    height: 414px;
+    height:25.875rem;
 }
 
 .card-body{
@@ -1351,7 +1351,7 @@ footer{
 
 span{
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 150%;
     color:#7E8492; 
 }
@@ -1395,7 +1395,7 @@ span{
     width: 616px;
     height: 2rem;
     font-weight: 500;
-    font-size: 18px;
+    font-size:1.125rem;
     line-height: 2rem;
     text-align: center;
 }
@@ -1444,9 +1444,11 @@ span{
 }
 
 #container-footer{
+   
     height: 526px;
     padding: 0px;
-    margin:0px
+    margin:0px;
+    
 }
 
 #footer-brand{
@@ -1467,22 +1469,63 @@ span{
     gap:473px;
 }
 
+#footer-middle{
+    display: flex;
+    width: 1216px;
+    height: 66px;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    margin-left:7rem;
+    margin-right: 7rem;
+}
 
+#informative-icons{
+    width: 450px!important;
+    height: 26px;
+    gap:40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap !important;
+    margin:0px;
+}
+
+#logo-footer{
+    margin: 0px;
+}
+
+#footer-end{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    width: 75.12rem;
+    margin-right: 7.68rem;
+    margin-left: 7.5rem;
+    margin-top: 2.56rem; 
+    border-top: 2px solid #7E8492;
+}
+
+#terms{
+    width: 297px;
+    height: 26px;
+    padding: 0px !important;
+}
+
+#terms p{
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#credits{
+    margin:0px;
+}
+
+#credits p{
+    width: 225px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
