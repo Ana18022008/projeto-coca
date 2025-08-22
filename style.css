@@ -54,7 +54,8 @@ header , #container-free-trial, #hero {
 
 #logo{
     width: 31.9955vw;
-    height: 3.5rem;
+    min-height: 3.5rem;
+    max-height: 4rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -67,6 +68,7 @@ header , #container-free-trial, #hero {
 }
 
 #menu-mobile{
+    width: 1.6665;
     height: 1.5rem;
 }
 }
@@ -85,7 +87,7 @@ header , #container-free-trial, #hero {
     padding-top: 2rem;
 }
 
- #hero-text h2{
+ #hero-text h1{
     font-weight: 600;
     font-size: 2.25rem;
     letter-spacing: 0.0625rem;
@@ -200,10 +202,6 @@ header , #container-free-trial, #hero {
     height: 2.651rem;
     align-items: center;
     justify-content: center;
-}
-
-.logo{
-    max-width: 100%;
 }
 }
 
@@ -477,13 +475,10 @@ span{
 }
 
 #information p{
-    display: flex;
-    align-items: center;
     width: 24.08762vw;
     font-size: 0.875rem;
     font-weight: 500;
     line-height: 150%;
-    text-align: center;
     color: #EDEDED;
 }
 
@@ -698,6 +693,62 @@ footer{
 }
 }
 
+@media (min-width: 1180px) and (max-width: 1282px) {
+  #planning {
+    .text h2{
+      width: 523px;
+    }
+
+    .planning-text h2{
+        width: 488.69px;
+    }
+  }
+
+  #trial-demo{
+    width: 324.91px!important;
+  }
+
+  #comment{
+    width: 1032.39px!important;
+  }
+
+  #free-trial{
+    #information{
+        width: 384.55px!important;
+    }
+
+    #requestion{
+        width: 439.75px!important;
+    }
+  }
+}
+
+@media (min-width: 1180px) and (max-width: 1416px){
+
+    #free-trial{
+
+        #text h2{
+            width: 765.63px;
+        }
+
+        #text p{
+            width: 602.84px;
+        }
+    }
+
+    #header{
+         
+    button{  
+           padding: 0px!important;
+        }
+
+    #login{
+        width: 221.22px!important;
+   
+    }
+}
+}
+
 @media (min-width: 1180px){
 
 header{
@@ -792,6 +843,7 @@ header{
         padding-right: 3rem;
         padding-top:4.5rem;
     }
+
     #hero-text{
         width: 68.882vw!important;
         height: 23.625rem;
@@ -866,7 +918,6 @@ header{
        width: 99.99vw;
        height: 30.375rem;
        margin-top: -4rem;
-    
 
     #clients-container{
         display: flex;
@@ -915,6 +966,7 @@ header{
     justify-content: center; /* Arrumar pois o container n sobe*/  
      }
     }
+
      /*section planning*/
 
      #planning{
@@ -1024,7 +1076,6 @@ header{
     height: 22.6875rem;
 }
 
-
     #second-text-graphics .graphics{
         display: flex;
         align-items: center;
@@ -1048,7 +1099,6 @@ header{
     height: 35.625rem;
     padding:5rem 7.5rem;
 
-
 #container-comments{
     width: 83.325vw;
     height: 25.625rem;
@@ -1066,11 +1116,17 @@ header{
 }
 
 #commentator{
-    width: 25.830vw;
+    width: 65.830vw;
+    height: 56px;
+}
+
+
+#commentator img{
+    height: 56px;
 }
    
 #name-commentator{
-    width: 15.90118vw;
+    width: clamp(301px 15.90118vw 340px);
     height: 2rem;
     font-weight: 600!important;
     font-family: 'Sora';
@@ -1080,7 +1136,7 @@ header{
 }
 
 #job-commentator{
-    width:20.83125vw;
+    width: clamp(301px 20.83125vw 340px);
     height: 1.25rem;
     font-weight: 400;
     font-size: 0.875rem;
@@ -1093,9 +1149,10 @@ header{
     flex-direction: column;
     justify-content: space-between;
     height: 60px;
-    width: 20.83125vw;
+    width: clamp(333px 20.83125vw 400px)!important;
 }
 }
+
 /*section tips*/
 
 #tips{
@@ -1168,7 +1225,6 @@ header{
     width: 26.24737vw;
     height: 35.6875rem;
 
-
      p{
         display: none;
     }
@@ -1219,7 +1275,6 @@ span{
     background-position:calc(100% - 31rem) calc(100% - 1.53rem); ;
 }
 
-
 #text{
     width: 54.3001vw;
     height: 11.875rem;
@@ -1235,9 +1290,7 @@ span{
     text-align: center;
 }
 
-
 #text p{
-    width: 42.7735vw;
     height: 2rem;
     font-weight: 500;
     font-size:1.125rem;
@@ -1245,14 +1298,12 @@ span{
     text-align: center;
 }
 
-
 #information{
     display: flex;
     width: 29.997vw;
     height: 1.625rem;
    
 }
-
 
 .info{
     font-weight: 500;
@@ -1272,12 +1323,10 @@ span{
     width: 31.4755vw;
 }
 
-
 #text-information{
     align-items: center;
     gap:1rem;
 }
-
 
 #requestion{
     flex-direction: row;
@@ -1289,7 +1338,6 @@ span{
 
 /*footer*/
 
-
 #footer{
     margin:0rem;
     height: 32.875rem;
@@ -1300,7 +1348,6 @@ span{
     margin:0rem;    
 }
 
-
 #footer-brand{
     flex-direction: row;
     width: 84.436vw;
@@ -1309,7 +1356,6 @@ span{
     gap:8.375rem;
     margin: 4.25rem 7.777vw;
 }
-
 
 #footer-brand h3{
     width: 52.91137vw;
@@ -1326,11 +1372,9 @@ span{
     gap:1.5rem
 }
 
-
 #location{
     width: 20rem;
 }
-
 
 #contact-info #email{
     width: 171px;

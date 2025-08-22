@@ -4,440 +4,297 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coca</title>
-    <link rel = "Stylesheet" href = "style.css">
+    <link rel="Stylesheet" href="style.css">
 
-
-
-
+    <!-- Google Fonts -->
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sonsie+One&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Sora:wght@100..800&display=swap" rel="stylesheet">
 
-
-
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sonsie+One&display=swap" rel="stylesheet">
-
-
-
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Sora:wght@100..800&display=swap" rel="stylesheet">
 </head>
 <body>
 
+    <header id="header"> 
+        <div id="container-header">
 
+            <div id="logo"> 
+                <img src="/images/Logo-coca/Logo.svg" alt="website logo.">
+            </div>
 
+            <nav class="menus" aria-label="Main menu">
+                <div id="menu-mobile" area-label="Menu mobile">
+                    <img src="/images/menu-hamburguer.svg" alt="Menu Hambúrguer para dispositivos mobile.">
+                </div>
 
-   
-<header id = "header"> <!--renomear as classes e ids somente para um idioma-->
-    <div id = "container-header"> <!--Adicionar destinos para os links e buttons-->
-        <!--colocar ponto final nos alt-->
+                <div id="menu-desktop" area-label="Menu desktop">
+                    <p><a href="#home">Home</a></p>
+                    <p><a href="#solutions">Solutions</a></p>
+                    <p><a href="#rankings">Rankings</a></p>
+                    <p><a href="#pricing">Pricing</a></p>
+                </div>
+            </nav>
 
-
-
-
-        <div id = "logo">  <!--Perguntar para o professor onde vai o H1-->
-           
-    <img src = "/images/Logo.svg" alt = "website logo" >
+            <div id="login">
+                <p id=sign-in>Sign In</p>
+                <button>Sign up Free</button>
+            </div>
         </div>
+    </header>
 
+    <main id="main">
+        <div id="container-main">
 
-        <nav class = "menus" aria-label = "Main menu">
-
-
-
-
-            <div id="menu-mobile" area-label = "Menu mobile">
-                <img src = "/images/menu-hamburguer.svg" alt = "Menu Hambúrguer para dispositivos mobile">
-            </div>
-
-
-
-
-         <div id = "menu-desktop" area-label = "Menu desktop"> <!--precisa de area label nos divs?-->
-            <p><a href = "#home"> Home </a></p>
-            <p><a href = "#solutions"> Solutions </a></p>
-            <p><a href = "#rankings"> Rankings </a></p>
-            <p><a href = "#pricing"> Pricing </a></p>
-         </div>
-    </nav>
-
-
-
-
-     <div id="login">
-    <p id = sign-in>Sign In</p>
-    <button>Sign up Free</button>
-    </div>
-   
-</div>
-</header>
-
-
-
-
-<main id = "main">
-
-
-
-
-    <div id = "container-main">
-   
-    <section id = "hero">
-        <div id="hero-container">
-            <div id = "hero-text">
-            <h2>Time tracking and efficient work habits are key to success</h2>
-            <p>How to overcome common challenges and pitfalls when trying to adopt time tracking and efficient work habits, and build sustainable habits that lead to lasting success </p>
-            </div>
-            <div id = trial-table>
-            <div id = "trial-demo"> <!--Verificar se é um bom nome-->
-                    <button>Get Trial Project🔥 </button>
-                    <div id = "demo">
-                        <img id = "play-icon" src = "/images/Icon_play.svg" alt = "Play icon"> <!--Verificar todas as nomeações-->
-                        <p>Watch Demo</p>
+            <!-- HERO -->
+            <section id="hero">
+                <div id="hero-container">
+                    <div id="hero-text">
+                        <h1>Time tracking and efficient work habits are key to success</h1>
+                        <p>How to overcome common challenges and pitfalls when trying to adopt time tracking and efficient work habits, and build sustainable habits that lead to lasting success </p>
                     </div>
-            </div>
-<div id="tables">
-    <img src = "/images/tabelas.svg" alt = "graphs and tables from our website in operation"> <!--Verificar as nomeações-->
-</div>
-</div>
-        </div>
 
-        <div id = "hero-waves">
-    <img src = "/images/ondas.svg" alt = "waves for decoration">
-    </div>
+                    <div id=trial-table>
+                        <div id="trial-demo"> 
+                            <button>Get Trial Project🔥</button>
+                            <div id="demo">
+                                <img id="play-icon" src="/images/Icon_play.svg" alt="Play icon."> 
+                                <p>Watch Demo</p>
+                            </div>
+                        </div>
 
-    </section>
-
-
-
-
-    <section id = "clients">
-        <div id="clients-container">
-            <div id = "clients-text">
-        <h2>Our services/
-            products are trusted by industry leaders</h2>
-</div>
-
-
-        <nav class = "companies">
-
-            <div id = "mobile-companies">
-
-                <div class="container-logo">
-                <img class = "logo" src = "/images/Google Logo.svg" alt = "Google logo">
+                        <div id="tables">
+                            <img src="/images/tabelas.svg" alt="graphs and tables from our website in operation.">
+                        </div>
+                    </div>
                 </div>
 
-                <div class="container-logo">
-                <img class = "logo" src = "/images/Microsoft Logo.svg" alt = "Microsoft logo">
+                <div id="hero-waves">
+                    <img src="/images/ondas.svg" alt="waves for decoration.">
                 </div>
+            </section>
 
-                <div class="container-logo">
-                <img class = "logo" src = "/images/Airbnb svg.svg" alt = "Airbnb logo">
+            <!-- CLIENTS -->
+            <section id="clients">
+                <div id="clients-container">
+                    <div id="clients-text">
+                        <h2>Our services/ products are trusted by industry leaders</h2>
+                    </div>
+
+                    <nav class="companies" aria-label="Companies logos">
+                        <div id="mobile-companies">
+                            <div class="container-logo">
+                                <img class="logo" src="/images/Logo-companies/Google Logo.svg" alt="Google logo.">
+                            </div>
+                            <div class="container-logo">
+                                <img class="logo" src="/images/Logo-companies/Microsoft Logo.svg" alt="Microsoft logo.">
+                            </div>
+                            <div class="container-logo">
+                                <img class="logo" src="/images/Logo-companies/Airbnb svg.svg" alt="Airbnb logo.">
+                            </div>
+                            <div class="container-logo">
+                                <img class="logo" src="/images/Logo-companies/Groupon svg.svg" alt="Groupon logo.">
+                            </div>
+                        </div>
+
+                        <div id="desktop-companies">
+                            <div class="container-logo-desktop">
+                                <img class="logo-desktop" src="/images/Logo-companies/desktop/Notion svg.svg" alt="Notion logo.">
+                            </div>
+                            <div class="container-logo-desktop">
+                                <img class="logo-desktop" src="/images/Logo-companies/desktop/Google-desktop.svg" alt="Google logo.">
+                            </div>
+                            <div class="container-logo-desktop">
+                                <img class="logo-desktop" src="/images/Logo-companies/desktop/Microsoft-desktop.svg" alt="Microsoft logo.">
+                            </div>
+                            <div class="container-logo-desktop">
+                                <img class="logo-desktop" src="/images/Logo-companies/desktop/Grammarly svg.svg" alt="Grammarly logo.">
+                            </div>
+                            <div class="container-logo-desktop">
+                                <img class="logo-desktop" src="/images/Logo-companies/desktop/Descript svg.svg" alt="Descript logo.">
+                            </div>
+                            <div class="container-logo-desktop">
+                                <img class="logo-desktop" src="/images/Logo-companies/desktop/Airbnb-desktop.svg" alt="Airbnb logo.">
+                            </div>
+                            <div class="container-logo-desktop">
+                                <img class="logo-desktop" src="/images/Logo-companies/desktop/Groupon-desktop.svg" alt="Groupon logo.">
+                            </div>
+                        </div>
+                    </nav>
                 </div>
+            </section>
 
-                <div class="container-logo">
-                <img class = "logo" src = "/images/Groupon svg.svg" alt = "Groupon logo">
+            <!-- PLANNING -->
+            <section id="planning">
+                <div id="container-planning">
+                    <div id="text-graphics">
+                        <div class="text">
+                            <h2>Make sure to organize and plan how you will allocate</h2>
+                            <h5>Time management is essential for ensuring that you have enough time to complete your tasks.</h5> 
+                            <p>Time is a crucial element in our lives, helping us to structure and organize our daily activities into good habits. By understanding the value of time, we can gain valuable experience and develop ourselves.</p>
+                        </div>
+
+                        <div class="graphics"> 
+                            <img src="/images/graficos.svg" alt="Graphs with project earnings and costs per day and division of total time between areas such as Branding and User Interface.">
+                        </div>
+                    </div>
+
+                    <div id="second-text-graphics">
+                        <div id="container">
+                            <div class="graphics">
+                                <img src="/images/graphics.svg" alt="Bar chart showing work hours from March 17 to 21, ranging from 2h to 8h. Next to it, a pie chart with 100 total hours: 49h50m clocked, 50h10m billable, total earnings $35,500.">
+                            </div>
+
+                            <div class="planning-text">
+                                <h2>Utilize your busy time wisely with these excellent tips</h2>
+                                <h5>Time management is essential for ensuring that you have enough time to complete your tasks.</h5>
+                                <p>Time is a crucial element in our lives, helping us to structure and organize our daily activities into good habits. By understanding the value of time, we can gain valuable experience and develop ourselves.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-           
-            </div>
+            </section>
 
-            <div id = "desktop-companies">
+            <!-- COMMENTS -->
+            <section id="comments">
+                <div id="container-comments">
+                    <img id="stars" src="/images/Estrelas.svg" alt="her grade represented in stars.">
+                    <blockquote id="comment">“ I really enjoy my work and it makes me more productive, happier and more successful. The cowering place builds confidence and inspires greater performance and greater success for both employees and employers.”</blockquote>
+                 
+                    <div id="commentator">
+                        <div id="commentator-img">
+                            <img src="/images/Client.svg" alt="photo of a microsoft project manager."> 
+                        </div>
 
-                <div class="container-logo-desktop">
-                <img class = "logo-desktop" src = "/images/Notion svg.svg" alt = "Notion logo">
+                        <div id="name-job-commentator">
+                            <p id="name-commentator">Jenny Amelia kitty</p>
+                            <p id="job-commentator">Project Manager at Microsoft</p>
+                        </div>
+                    </div>
                 </div>
+            </section>
 
-                <div class="container-logo-desktop">
-                <img class = "logo-desktop" src = "/images/Google-desktop.svg" alt = "Google logo">
+            <!-- TIPS -->
+            <section id="tips">
+                <div id="container-tips">
+                    <div id="tips-text">
+                        <h2>Maximize Your Time with Tips from Our Time Management Blog</h2>
+                        <p>Transform Your Time Management Skills: Explore Our Comprehensive Blog for Insights, Inspiration, and Strategies</p>
+                    </div>
+
+                    <div id="cards">
+                        <div class="card">
+                            <div class=card-img>
+                                <img src="/images/imagem1.svg" alt="Team of UX designers in a relaxing moment with post-its on the wall."> <!-- Professor verificou -->
+                            </div>
+                            <div class="card-body">
+                                <h4>List of UX Designer Portfolio / Case Studies where you can make money</h4>
+                                <p>Here are some portfolios / Case Studies from UX Designers that you can use as a reference for creating a portfolio. Two interesting things from their portfolio are:</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class=card-img>
+                                <img src="/images/imagem2.svg" alt="Team of UX designers analyzing and planning at a table full of materials and sketches."> <!-- Verificar -->
+                            </div>
+                            <div class="card-body">
+                                <h4>Elements that may be missed when designing the UI</h4>
+                                <p>This is an article that talks about the little elements that are often overlooked when designing UI.</p>
+                                <span id="card-2"> This is an article that talks about the little elements that are often overlooked when designing UI. Design is a method of designing aesthetic actions that are carried out.</span>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class=card-img>
+                                <img src="/images/imagem3.svg" alt="UX professionals collaborating in an office environment with computers and post-its.">
+                            </div>
+                            <div class="card-body">
+                                <h4>Skyrocketing in The Designing Career, Why Not?</h4>
+                                <p>Ever thought of jumping into the world of design as a career? If not, you may want to look at what the word ‘design’ actually means. Design is a method of designing aesthetic actions that are carried out </p>
+                                <span id="card-3">Ever thought of jumping into the world of design as a career? If not, you may want to look at what the word ‘design’ actually means. </span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-               
-                <div class="container-logo-desktop">
-                <img class = "logo-desktop" src = "/images/Microsoft-desktop.svg" alt = "Microsoft logo">
-               </div>
-               
-               <div class="container-logo-desktop">
-                <img class = "logo-desktop" src = "/images/Grammarly svg.svg" alt = "Grammarly logo">
+            </section>
+
+            <!-- FREE TRIAL -->
+            <section id=free-trial>
+                <div id="container-free-trial">
+                    <div id="text-information">
+                        <div id="text">
+                            <h2>Are you ready to get started? Begin your free trial today</h2>
+                            <p>Experience the Possibilities: Start Your Free Trial and Get Started Today</p>
+                        </div>
+
+                        <div id="information">
+                            <p class="info">Ready for 30 days trial</p>
+                            <p class="info">Exclusive support</p> <!-- Adicionar separações como no figma -->
+                            <p class="info">No fees</p>
+                        </div>
+                    </div>
+
+                    <div id="requestion">
+                        <div id="email">
+                            <img src="/images/Icone carta.svg" alt="icon representing an email letter.">
+                            <p>Enter Email</p>
+                        </div>
+                        <div id="request">
+                            <p>Request Trial</p>
+                        </div>
+                    </div>
                 </div>
-               
-                <div class="container-logo-desktop">
-                <img class = "logo-desktop" src = "/images/Descript svg.svg" alt = "Descript logo">
-               </div>
-               
-               <div class="container-logo-desktop">
-                <img class = "logo-desktop" src = "/images/Airbnb-desktop.svg" alt = "Airbnb logo">
+            </section>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id=footer>
+        <div id="container-footer">
+
+            <div id="footer-brand">
+                <h3>Let's join Coca, <br> your best partner</h3>
+                <div id="contact-info">
+                    <div id="location">
+                        <img src="/images/localizacao.svg" alt="icon indicating location.">
+                        <p>1929, Bancangan, Sambit, Suroboyo, Wakanda</p>
+                    </div>
+                    <div id="email">
+                        <img src="/images/email.svg" alt="icon representing an email letter.">
+                        <p>hello@coca.co</p>
+                    </div>
                 </div>
-               
-                <div class="container-logo-desktop">
-                <img class = "logo-desktop" src = "/images/Groupon-desktop.svg" alt = "Groupon logo">
+            </div>
+
+            <div id="footer-middle">
+                <div id="logo-footer">
+                    <img src="/images/Logo-coca/logo-footer.svg" alt="Coca logo.">
+                </div>
+                <div id="informative-icons"> <!-- trocar nome -->
+                    <p>Overview</p>
+                    <p>Pricing</p>
+                    <p>Help</p>
+                    <p>Features</p>
+                    <p>Careers</p>
+                </div>
+                <div id="social">
+                    <img id="facebook" src="/images/facebook.svg" alt="Our facebook.">
+                    <img id="twitter" src="/images/twitter.svg" alt="Our twitter.">
+                    <img id="instagram" src="/images/instagram.svg" alt="Our instagram.">
+                    <img id="linkedin" src="/images/linkedIn.svg" alt="Our linkedIn.">
                 </div>
             </div>
-        </nav>
-        </div>
-    </section>
 
-
-
-
-    <section id = "planning">
-        <div id = "container-planning">
-<div id = "text-graphics">
-        <div class = "text">
-            <h2>Make sure to organize and plan how you will allocate</h2>
-            <h5>Time management is essential for ensuring that you have enough time to complete your tasks.</h5> <!--Verificar se o título está do tamanho certo-->
-            <p>Time is a crucial element in our lives, helping us to structure and organize our daily activities into good habits. By understanding the value of time, we can gain valuable experience and develop ourselves.</p>
-        </div>
-
-
-
-
-        <div class = "graphics"> <!--Verificar o nome da div (tlvz deixar todos os gráficos com o mesmo nome)-->
-            <img src = "/images/graficos.svg" alt = "Graphs with project earnings and costs per day and division of total time between areas such as Branding and User Interface.">
-        </div>
-</div>
-
-
-
-
-<div id="second-text-graphics">
-    <div id = "container">
-
-
-
-
-        <div class="graphics">
-            <img src = "/images/graphics.svg" alt = "Bar chart showing work hours from March 17 to 21, ranging from 2h to 8h. Next to it, a pie chart with 100 total hours: 49h50m clocked, 50h10m billable, total earnings $35,500.">
-        </div>
-
-
-        <div class="planning-text">
-            <h2>Utilize your busy time wisely with these excellent tips</h2>
-            <h5>Time management is essential for ensuring that you have enough time to complete your tasks.</h5>
-            <p>Time is a crucial element in our lives, helping us to structure and organize our daily activities into good habits. By understanding the value of time, we can gain valuable experience and develop ourselves.</p>
-        </div>
-</div>
- </div>
-        </div>
-    </section>
-
-
-
-
-   
-    <section id = "comments">
-        <div id = "container-comments"> <!--Adicionar bordas em cima e em baixo como no figma-->
-            <img id = "stars" src = "/images/Estrelas.svg" alt = "Nota em estrelas">
-            <p id = "comment">“ I really enjoy my work and it makes me more productive, happier and more successful. The cowering place builds confidence and inspires greater performance and greater success for both employees and employers.”</p>
-         
-            <div id = "commentator">
-
-
-
-
-            <div id = "commentator-img">
-            <img src = "/images/Client.svg" alt = "Comentadora"> <!--Trocar o alt depois-->
-            </div>
-
-
-
-
-            <div id = "name-job-commentator">
-            <p id = "name-commentator">Jenny Amelia kitty</p>
-            <p id = "job-commentator">Project Manager at Microsoft</p>
-            </div>
-
-
-
-
-        </div>
-        </div>
-    </section>
-
-
-
-
-    <section id = "tips"> <!--Verificar se o nome está correto e aceito-->
-<div id = "container-tips">
-
-
-
-
-    <div id = "tips-text">
-    <h2>Maximize Your Time with Tips from Our Time Management Blog</h2>
-    <p>Transform Your Time Management Skills: Explore Our Comprehensive Blog for Insights, Inspiration, and Strategies</p>
-</div>
-
-
-
-
-    <div id = "cards">
-        <div class = "card">
-           
-            <div class = card-img>
-            <img src = "/images/imagem1.svg" alt = "Team of UX designers in a relaxing moment with post-its on the wall."> <!--Professor verificou-->
-           </div>
-
-
-            <div class="card-body">
-            <h4>List of UX Designer Portfolio / Case Studies where you can make money</h4>
-            <p>Here are some portfolios / Case Studies from UX Designers that you can use as a reference for creating a portfolio. Two interesting things from their portfolio are:</p>
-           
-        </div>
-        </div>
-
-
-
-
-        <div class="card">
-
-
-             <div class = card-img>
-            <img src = "/images/imagem2.svg" alt = "Team of UX designers analyzing and planning at a table full of materials and sketches."> <!--Verificar-->
-            </div>
-           
-            <div class="card-body">
-            <h4>Elements that may be missed when designing the UI</h4>
-            <p>This is an article that talks about the little elements that are often overlooked when designing UI.</p>
-            <span id = "card-2"> This is an article that talks about the little elements that are often overlooked when designing UI. Design is a method of designing aesthetic actions that are carried out.</span>
-       
-        </div>
-        </div>
-
-
-
-
-        <div class="card">
-           
-             <div class = card-img>
-            <img src = "/images/imagem3.svg" alt = "UX professionals collaborating in an office environment with computers and post-its.">
-            </div>
-
-
-            <div class="card-body">
-            <h4>Skyrocketing in The Designing Career, Why Not?</h4>
-            <p>Ever thought of jumping into the world of design as a career? If not, you may want to look at what the word ‘design’ actually means. Design is a method of designing aesthetic actions that are carried out </p>
-            <span id = "card-3">Ever thought of jumping into the world of design as a career? If not, you may want to look at what the word ‘design’ actually means. </span>
-        </div>
-        </div>
-    </div>
-</div>
-    </section>
-
-
-
-
-    <section id = free-trial>
-        <div id = "container-free-trial">
-            <div id = "text-information">
-            <div id="text">
-                <h2>Are you ready to get started? Begin your free trial today</h2>
-                <p>Experience the Possibilities: Start Your Free Trial and Get Started Today</p>
-            </div>
-
-
-
-
-            <div id="information">
-                <p class = "info">Ready for 30 days trial</p>
-               
-                <p class = "info">Exclusive support </p> <!--Adicionar separações como no figma-->
-               
-                <p class = "info">No fees</p>
-            </div>
-            </div>
-
-
-
-
-            <div id="requestion">
-                <div id = "email">
-                <img src = "/images/Icone carta.svg" alt = "Ícone representando uma carta">
-                 <p>Enter Email</p>
-            </div>
-            <div id = "request">
-            <p>Request Trial</p>
-             </div>
-            </div>
-        </div>  
-    </section>
-</main>
-
-
-
-
-<footer id = footer>
-    <div id="container-footer">
-
-
-
-
-        <div id="footer-brand">
-            <h3>Let's join Coca, <br> your best partner</h3>
-            <div id = "contact-info">
-                <div id="location">
-                    <img src = "/images/localizacao.svg" alt = "Ícone indicando a localização">
-                    <p>1929, Bancangan, Sambit, Suroboyo, Wakanda</p>
+            <div id="footer-end">
+                <div id="terms">
+                    <p>Terms & Conditions</p>
+                    <p>Privacy Policy</p>
                 </div>
-
-
-
-
-                <div id="email">
-                    <img src = "/images/email.svg" alt = "Ícone de carta indicando o email">
-                    <p>hello@coca.co</p>
+                <div id="credits">
+                    <p>© Coca Pay by Sans Brothers</p>
                 </div>
             </div>
         </div>
-
-
-
-
-        <div id="footer-middle">
-            <div id="logo-footer">
-                <img src = "/images/logo-footer.svg" alt = "Logo do site">
-            </div>
-
-
-
-
-            <div id="informative-icons"> <!--trocar nome-->
-                <p>Overview</p>
-                <p>Pricing</p>
-                <p>Help</p>
-                <p>Features</p>
-                <p>Careers</p>
-            </div>
-
-
-
-
-            <div id = "social">
-                <img id = "facebook" src = "/images/facebook.svg" alt = "Nosso facebook">
-                <img id = "twitter" src = "/images/twitter.svg" alt = "Nosso twitter">
-                <img id = "instagram" src = "/images/instagram.svg" alt = "Nosso instagram">
-                <img id = "linkedin" src = "/images/linkedIn.svg" alt = "nosso linkedIn">
-            </div>
-        </div>
-
-        <div id = "footer-end">
-
-            <div id = "terms">
-                <p>Terms & Conditions</p>
-                <p>Privacy Policy</p>
-            </div>
-
-            <div id = "credits">
-                <p>© Coca Pay by Sans Brothers</p>
-            </div>
-        </div>
-
-    </div>
-</footer>
+    </footer>
 
 </body>
-
 </html>
